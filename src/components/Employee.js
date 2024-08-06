@@ -2,11 +2,12 @@ import React from "react";
 import Card from "./Card";
 
 const Employee = (props) => {
-    const {pdtCode, pdtPrice, pdtName, pdtImg, pdtDescription, avgFeedback: rating} = props.productDetail;
+    // pdtName, pdtImg,
+    const {pdtCode, pdtPrice, pdtDescription, avgFeedback: rating} = props.productDetail;
     return (
         <div className="thumbnail">
             <div className="row>">
-                <div className="col-sm-6">
+                <div >
                     <img src="{`http://localhost:4000${pdtImg}`}" alt="product" style={{ "width": "100%" }} className={"img img-rounded img-responsive"} />
                 </div>
                 <div className="col-sm-6">
