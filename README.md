@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 to sereve :
 ---> npm start
+
+
+to serve a json file on json server:
+---> json-server --watch filename.json --port portnumber
