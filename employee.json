@@ -1,6 +1,19 @@
 {
-    "productDetails":[
-        {"pdtCode": 1234, "pdtPrice": 2141, "pdtName": "jbjkn", "pdtImg": "logo192.png", "pdtDescription": "bkjbkjbjlknjl  jbb ib", "avgFeedback": 4}
-        
-    ]
+  "data": [
+    {
+      "id": "a47e",
+      "personName": "Teja",
+      "age": "23"
+    },
+    {
+      "id": "2084",
+      "personName": "jhbhb",
+      "age": "12"
+    },
+    {
+      "id": "5dd4",
+      "personName": "Diwa",
+      "age": "25"
+    }
+  ]
 }
