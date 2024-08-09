@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
     const [status, setStatus] = useState(null);
@@ -6,12 +7,14 @@ const Login = () => {
         username:"",
         password:""
     });
+    let navigate = useNavigate();
     const handleSubmit = (event) => {
         event.preventDefault();
         if(!data.username || !data.password) {
             setStatus(false)
         } else {
             setStatus(true)
+            navigate('/AxiosPost/'+data.username);
         }
     };
     const handleChange = (event) => {
