@@ -1,11 +1,11 @@
 import './App.css';
-import AxiosPostDelete from './components/AxiosPostDelete';
+import AxiosUpdate from './components/AxiosUpdate';
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <AxiosPostDelete/>
+      <AxiosUpdate/>
       {/* <header className="App-header">
         
       </header> */}
